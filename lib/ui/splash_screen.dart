@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:foodeliver/ui/intro_page.dart';
+import 'package:foodeliver/ui/sign_in_page.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -16,7 +16,7 @@ class SplashScreen extends StatelessWidget {
           children: [
             InkWell(
               onTap: () {
-                Get.to(IntroPage());
+                Get.to(SignInPage());
               },
               child: ClipRRect(
                 child: Container(
